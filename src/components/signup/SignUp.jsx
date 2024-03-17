@@ -58,7 +58,7 @@ const SignUp = () => {
         <div className="flex items-center mb-5">
           <img
             className="w-40 mr-2"
-            src="PathFinder.png"
+            src="PathFinder.svg"
             alt="Logo"
           />
         </div>

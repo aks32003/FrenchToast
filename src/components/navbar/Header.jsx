@@ -90,28 +90,28 @@ const Header = () => {
         </NavbarLink>
         <NavbarLink
           as={Link}
-          to="/products"
+          to="/questionnaire"
           active={location === "products" ? true : false}
         >
           Roadmap
         </NavbarLink>
         <NavbarLink
           as={Link}
-          to="/products"
+          to="/optimizer"
           active={location === "products" ? true : false}
         >
           Resume Optimizer
         </NavbarLink>
         <NavbarLink
           as={Link}
-          to="/products"
+          to="/jdmatch"
           active={location === "products" ? true : false}
         >
           JD Match
         </NavbarLink>
         <NavbarLink
           as={Link}
-          to="/products"
+          to="/interviewprep"
           active={location === "products" ? true : false}
         >
           Interview Prep

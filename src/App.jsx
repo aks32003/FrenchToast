@@ -11,6 +11,10 @@ const Header = lazy(() => import("./components/navbar/Header"));
 const Home = lazy(() => import("./components/home/Home"));
 const Login = lazy(() => import("./components/login/Login"));
 const SignUp = lazy(() => import("./components/signup/SignUp"));
+const Questionnaire = lazy(() => import("./components/utils/questionnaire"));
+const Optimizer = lazy(() => import("./components/utils/optimizer"));
+const MatchCalculator = lazy(() => import("./components/utils/MatchCalculator"));
+const Interviewprep = lazy(() => import("./components/utils/interviewprep"));
 const ProductDetails = lazy(() =>
   import("./components/product/ProductDetails")
 );
@@ -38,6 +42,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/questionnaire" element={<Questionnaire />} />
+            <Route path="/optimizer" element={<Optimizer />} />
+            <Route path="/jdmatch" element={<MatchCalculator />} />
+            <Route path="/interviewprep" element={<Interviewprep />} />
             <Route path="/products" element={<AllProducts />} />
             <Route path="/product/:productId" element={<ProductDetails />} />
             <Route
