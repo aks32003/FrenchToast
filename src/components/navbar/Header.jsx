@@ -94,6 +94,13 @@ const Header = () => {
       </div>
       <NavbarCollapse>
         <NavbarLink as={Link} to="/" active={location === "" ? true : false}>
+          Home
+        </NavbarLink>
+        <NavbarLink
+          as={Link}
+          to="/products"
+          active={location === "products" ? true : false}
+        >
           Roadmap
         </NavbarLink>
         <NavbarLink
