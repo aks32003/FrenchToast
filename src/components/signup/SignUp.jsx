@@ -54,15 +54,14 @@ const SignUp = () => {
 
   return (
     <section className="bg-gray-50 dark:bg-gray-900 p-8">
-      <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-max lg:py-0">
+      <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-max lg:py-5">
         <div className="flex items-center mb-5">
           <img
             className="w-40 mr-2"
-            src="https://d33wubrfki0l68.cloudfront.net/b891ad524a09a29d768b6ffdbf5f52bb0c6da7e1/47f53/img/vitspot-logo.png"
-            alt="VITSpot Logo"
+            src="PathFinder.png"
+            alt="Logo"
           />
         </div>
-
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 className="text-xl font-bold leading-tight tracking-tight text-blue-600 md:text-2xl dark:text-white">
@@ -154,7 +153,7 @@ const SignUp = () => {
                 />
                 {signUpData.password !== signUpData.confirmPassword && (
                   <p className="mt-2 text-sm text-red-600 dark:text-red-500">
-                    <span className="font-medium">Oh, snapp!</span> Password and Confirm Password doesn't match
+                    Password and Confirm Password doesn't match
                   </p>
                 )}
               </div>
