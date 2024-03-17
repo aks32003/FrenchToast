@@ -32,7 +32,7 @@ const Header = () => {
     <Navbar fluid rounded className="sticky top-0 z-50 shadow-md rounded-sm">
       <NavbarBrand as={Link} to={"/"}>
         <img
-          src="https://d33wubrfki0l68.cloudfront.net/b891ad524a09a29d768b6ffdbf5f52bb0c6da7e1/47f53/img/vitspot-logo.png"
+          src="PathFinder.svg"
           className="mr-3 h-6 sm:h-9"
           alt="VITSpot Logo"
         />
