@@ -16,9 +16,9 @@ const ProductCategories = () => {
           imageUrl="public\firstproduct.jpeg"
         />
         <CategoriesCard
-          title="Roadmap"
-          description=" Dive into our engaging quizzes and let our AI-driven internal assessment tool decode your unique profile effortlessly, while curating a roadmap"
-          imageURL="public\roadmap.jpeg"
+          title="Road Map"
+          description="Dive into our engaging quizzes and let our AI-driven internal assessment tool decode your unique profile effortlessly, while curating a roadmap."
+          imageUrl="public\roadmap.jpeg"
         />
         <CategoriesCard
           title="JD Match"
@@ -28,7 +28,7 @@ const ProductCategories = () => {
         <CategoriesCard
           title="Interview Prep"
           description="Chill those cold feet on your big day! Access tailored resources, mock interviews, and AI feedback to conquer the fear of the unknown."
-          imageUrl="https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-1981-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024"
+          imageUrl="/prep.jpeg"
         />
       </div>
     </div>
