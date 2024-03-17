@@ -23,8 +23,6 @@ const SignUp = () => {
     confirmPassword: "",
     firstName: "",
     lastName: "",
-    registrationNumber: "",
-    phoneNumber: "",
   });
 
   const [isLoading, setIsLoading] = useState(false);

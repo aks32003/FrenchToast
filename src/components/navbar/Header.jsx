@@ -33,7 +33,7 @@ const Header = () => {
       <NavbarBrand as={Link} to={"/"}>
         <img
           src="PathFinder.svg"
-          className="mr-3 h-6 sm:h-9"
+          className="mr-3 h-4 sm:h-5"
           alt="VITSpot Logo"
         />
       </NavbarBrand>
@@ -66,14 +66,6 @@ const Header = () => {
             </DropdownHeader>
             <DropdownItem as={Link} to={"/user/profile"}>
               Profile
-            </DropdownItem>
-            <DropdownDivider />
-            <DropdownItem as={Link} to={"/user/products"}>
-              My Products
-            </DropdownItem>
-            <DropdownDivider />
-            <DropdownItem as={Link} to={"/user/product/create"}>
-              Create Product
             </DropdownItem>
             <DropdownDivider />
             <DropdownItem onClick={handleSignOut}>Sign out</DropdownItem>
