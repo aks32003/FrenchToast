@@ -18,7 +18,7 @@ const ProductCategories = () => {
         <CategoriesCard
           title="Roadmap"
           description=" Dive into our engaging quizzes and let our AI-driven internal assessment tool decode your unique profile effortlessly, while curating a roadmap"
-          imageUrl="https://thumbs.dreamstime.com/b/parked-bikes-autumn-leaves-modern-mountain-locked-to-cycle-rack-fallen-ground-st-john-s-college-chapel-background-close-61768169.jpg"
+          imageURL="C:\Users\prami\OneDrive\Desktop\Projects\FrenchToast\public\roadmap.jpg"
         />
         <CategoriesCard
           title="JD Match"

@@ -3,12 +3,10 @@ import {
   Footer,
   FooterBrand,
   FooterDivider,
-  FooterIcon,
   FooterLink,
   FooterLinkGroup,
   FooterTitle,
 } from "flowbite-react";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const BottomFooter = () => {
   return (
@@ -19,7 +17,7 @@ const BottomFooter = () => {
             <FooterBrand
               href="/"
               src="C:\Users\prami\OneDrive\Desktop\Projects\FrenchToast\PathFinder_Logo.svg"
-              alt="VITSpot Logo"
+              alt=""
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
