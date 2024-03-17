@@ -50,8 +50,8 @@ const Login = () => {
         <div className="flex items-center mb-6">
           <img
             className="w-40 mr-2"
-            src="https://d33wubrfki0l68.cloudfront.net/b891ad524a09a29d768b6ffdbf5f52bb0c6da7e1/47f53/img/vitspot-logo.png"
-            alt="VITSpot Logo"
+            src="PathFinder.png"
+            alt="Logo"
           />
         </div>
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
