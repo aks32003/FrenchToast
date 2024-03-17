@@ -15,13 +15,13 @@ const ProductCategories = () => {
       </div>
       <div className="flex flex-row flex-wrap justify-evenly">
         <CategoriesCard
-          title="Electronics"
-          description="Find all kinds of electronics, from second hand mobile phones to chargers"
+          title="Resume Optimizer"
+          description="First impressions matter. Craft a standout resume with PathFinder's feedback and optimization tool, helping you land your dream job"
           imageUrl="https://thumbs.dreamstime.com/b/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-153892483.jpg"
         />
         <CategoriesCard
-          title="Bicycles"
-          description="Buy second hand bicycles for easy travel on campus"
+          title="Careerpath"
+          description=" Dive into our engaging quizzes and let our AI-driven internal assessment tool decode your unique profile effortlessly, while curating a roadmap"
           imageUrl="https://thumbs.dreamstime.com/b/parked-bikes-autumn-leaves-modern-mountain-locked-to-cycle-rack-fallen-ground-st-john-s-college-chapel-background-close-61768169.jpg"
         />
         <CategoriesCard
@@ -33,16 +33,6 @@ const ProductCategories = () => {
           title="Books and Notes"
           description="Worrying about CAT2 notes? Get it from someone who has already completed your course"
           imageUrl="https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-1981-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024"
-        />
-        <CategoriesCard
-          title="Fashion"
-          description="Buy accessories like Watches, Perfumes and much more"
-          imageUrl="https://fashionsizzle.com/wp-content/uploads/2022/05/AdobeStock_150538222-1024x684.jpeg"
-        />
-        <CategoriesCard
-          title="Gym and Fitness"
-          description="Couldn't register for Gym this semester? Don't let that stop your workout"
-          imageUrl="https://www.telegraph.co.uk/content/dam/health-fitness/2023/01/16/TELEMMGLPICT000321896379_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpeg?imwidth=680"
         />
       </div>
     </div>

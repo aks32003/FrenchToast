@@ -52,8 +52,6 @@ const SignUp = () => {
           confirmPassword: "",
           firstName: "",
           lastName: "",
-          registrationNumber: "",
-          phoneNumber: "",
         });
       } catch (error) {
         setIsLoading(false);
@@ -81,9 +79,38 @@ const SignUp = () => {
             </h1>
             <form className="space-y-4 md:space-y-6" onSubmit={handleSignUp}>
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                  Your email
-                </label>
+                <input
+                  type="text"
+                  name="firstName"
+                  placeholder="First Name"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  required
+                  value={signUpData.firstName}
+                  onChange={(e) =>
+                    setSignUpData({
+                      ...signUpData,
+                      [e.target.name]: e.target.value,
+                    })
+                  }
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="lastName"
+                  placeholder="Last Name"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  required
+                  value={signUpData.lastName}
+                  onChange={(e) =>
+                    setSignUpData({
+                      ...signUpData,
+                      [e.target.name]: e.target.value,
+                    })
+                  }
+                />
+              </div>
+              <div>
                 <input
                   type="email"
                   name="email"
@@ -100,51 +127,10 @@ const SignUp = () => {
                 />
               </div>
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                  First Name
-                </label>
-                <input
-                  type="text"
-                  name="firstName"
-                  placeholder="first name"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  required
-                  value={signUpData.firstName}
-                  onChange={(e) =>
-                    setSignUpData({
-                      ...signUpData,
-                      [e.target.name]: e.target.value,
-                    })
-                  }
-                />
-              </div>
-              <div>
-                <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                  Last Name
-                </label>
-                <input
-                  type="text"
-                  name="lastName"
-                  placeholder="last name"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  required
-                  value={signUpData.lastName}
-                  onChange={(e) =>
-                    setSignUpData({
-                      ...signUpData,
-                      [e.target.name]: e.target.value,
-                    })
-                  }
-                />
-              </div>
-              <div>
-                <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                  Password
-                </label>
                 <input
                   type="password"
                   name="password"
-                  placeholder="password"
+                  placeholder="Password"
                   className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   required
                   value={signUpData.password}
@@ -157,13 +143,10 @@ const SignUp = () => {
                 />
               </div>
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                  Confirm password
-                </label>
                 <input
                   type="password"
                   name="confirmPassword"
-                  placeholder="confirm password"
+                  placeholder="Confirm Password"
                   className={
                     signUpData.password === signUpData.confirmPassword
                       ? "bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
@@ -186,7 +169,7 @@ const SignUp = () => {
               </div>
               <Button
                 className="w-full"
-                gradientDuoTone="purpleToWhite"
+                gradientDuoTone="purpleToBlue"
                 type="submit"
               >
                 {isLoading ? (
