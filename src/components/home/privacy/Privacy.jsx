@@ -24,7 +24,7 @@ const Privacy = () => {
       <div>
         <img
           src={
-            "https://firebasestorage.googleapis.com/v0/b/spot-store-37a5a.appspot.com/o/spot-store-assets%2Fimages%2Fprivacy.svg?alt=media&token=ad04c283-8db5-4b7a-b723-c99644b63688"
+            "bottom.svg"
           }
           alt="privacy spot store image"
           width="380px"

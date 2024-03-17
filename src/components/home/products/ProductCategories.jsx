@@ -13,17 +13,17 @@ const ProductCategories = () => {
         <CategoriesCard
           title="Resume Optimizer"
           description="First impressions matter. Craft a standout resume with PathFinder's feedback and optimization tool, helping you land your dream job"
-          imageUrl="https://thumbs.dreamstime.com/b/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-153892483.jpg"
+          imageUrl="public\firstproduct.jpeg"
         />
         <CategoriesCard
           title="Roadmap"
           description=" Dive into our engaging quizzes and let our AI-driven internal assessment tool decode your unique profile effortlessly, while curating a roadmap"
-          imageURL="C:\Users\prami\OneDrive\Desktop\Projects\FrenchToast\public\roadmap.jpg"
+          imageURL="public\roadmap.jpeg"
         />
         <CategoriesCard
           title="JD Match"
           description="Our AI recommendation engine verifies if your resume aligns with your target job, saving time and keeping you ahead in today's competitive market."
-          imageUrl="https://cdn.thewirecutter.com/wp-content/uploads/2020/07/best-mattress-2020-lowres-09221.jpg?auto=webp&quality=75&crop=3:2&width=1024"
+          imageUrl="public\jdmatch.jpeg"
         />
         <CategoriesCard
           title="Interview Prep"
