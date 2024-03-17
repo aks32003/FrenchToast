@@ -7,19 +7,18 @@ const ProductsHero = () => {
     <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row-reverse xl:flex-row-reverse items-center justify-evenly text-center sm:text-left md:text-left lg:text-left xl:text-left mb-6">
       <div>
         <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl font-bold w-96 text-blue-600  mb-6">
-          Selling On Campus Made Easy By Spot Store
+          Elevate your hiring odds today
         </h1>
         <p className="w-80 text-gray-400 mb-6">
-          Not using the products that you bought anymore? List your products on
-          Spot Store and sell them easily
+        Register on our website to uncover countless opportunities and boost your chances of landing your dream job
         </p>
         <Button
           className="w-full lg:w-fit xl:w-fit"
           gradientDuoTone="purpleToBlue"
           as={Link}
-          to={"/user/product/create"}
+          to={"/sign-up"}
         >
-          Sell your product
+          Get Started
         </Button>
       </div>
       <div>

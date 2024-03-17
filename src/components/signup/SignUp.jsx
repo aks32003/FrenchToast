@@ -29,17 +29,10 @@ const SignUp = () => {
 
   const [isLoading, setIsLoading] = useState(false);
 
-  const validateEmail = (email) => {
-    const regex = /^[a-zA-Z]+\.[a-zA-Z]+\d{4}@vitstudent\.ac\.in$/;
-    return regex.test(email);
-  };
-
   const handleSignUp = async (e) => {
     e.preventDefault();
     if (signUpData.password !== signUpData.confirmPassword) {
       toast.error("passwords do not match!");
-    } else if (!validateEmail(signUpData.email)) {
-      toast.error("Please enter your VIT email only");
     } else {
       try {
         setIsLoading(true);

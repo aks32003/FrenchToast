@@ -24,7 +24,7 @@ const Hero = () => {
             as={Link}
             to={"/products"}
           >
-            Get your personalized roadmap today
+            Get yours today
           </Button>
         </div>
         {/* <div className="relative mb-6">
