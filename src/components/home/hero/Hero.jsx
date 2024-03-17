@@ -56,7 +56,7 @@ const Hero = () => {
       </div>
       <div>
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/spot-store-37a5a.appspot.com/o/spot-store-assets%2Fimages%2Fhero-image.svg?alt=media&token=3782a389-d1bc-4843-8741-fe57fa94628a"
+          src="landingright.svg"
           alt="hero logo"
           width="450px"
           className="mt-4"

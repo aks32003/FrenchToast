@@ -25,7 +25,7 @@ const ProductsHero = () => {
       <div>
         <img
           src={
-            "https://firebasestorage.googleapis.com/v0/b/spot-store-37a5a.appspot.com/o/spot-store-assets%2Fimages%2Fproduct-hero.jpg?alt=media&token=25f541e8-88f9-4dd0-9b1d-757fbf3a889a"
+            "landingleft.svg"
           }
           alt="hero logo"
           width="425px"
