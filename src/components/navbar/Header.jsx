@@ -33,8 +33,13 @@ const Header = () => {
       <NavbarBrand as={Link} to={"/"}>
         <img
           src="PathFinder.svg"
+<<<<<<< HEAD
           className="mr-3 h-6 sm:h-9"
           alt="Logo"
+=======
+          className="mr-3 h-4 sm:h-5"
+          alt="VITSpot Logo"
+>>>>>>> 8ee6c5b979e082ab6a08904c2bdabc5cbba32af9
         />
       </NavbarBrand>
       <div className="flex md:order-2">
@@ -66,14 +71,6 @@ const Header = () => {
             </DropdownHeader>
             <DropdownItem as={Link} to={"/user/profile"}>
               Profile
-            </DropdownItem>
-            <DropdownDivider />
-            <DropdownItem as={Link} to={"/user/products"}>
-              My Products
-            </DropdownItem>
-            <DropdownDivider />
-            <DropdownItem as={Link} to={"/user/product/create"}>
-              Create Product
             </DropdownItem>
             <DropdownDivider />
             <DropdownItem onClick={handleSignOut}>Sign out</DropdownItem>

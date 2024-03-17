@@ -18,8 +18,13 @@ const BottomFooter = () => {
           <div>
             <FooterBrand
               href="/"
+<<<<<<< HEAD
               src="PathFinder.svg"
               alt="Logo"
+=======
+              alt="Logo"
+              src="C:\Users\prami\OneDrive\Desktop\Projects\FrenchToast\PathFinder_Logo.svg"
+>>>>>>> 8ee6c5b979e082ab6a08904c2bdabc5cbba32af9
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
