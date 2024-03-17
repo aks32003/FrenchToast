@@ -33,7 +33,7 @@ const ContactSupport = () => {
   };
   return (
     <section className="bg-slate-100 dark:bg-gray-900">
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <div className="py-8 lg:py-16 px-8 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-blue-600 dark:text-white">
           Contact Us
         </h2>
